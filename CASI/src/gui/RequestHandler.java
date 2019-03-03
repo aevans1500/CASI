@@ -22,7 +22,12 @@ public class RequestHandler implements Runnable {
     	}
     	catch (Exception e) {
     		
-    		e.printStackTrace();
+    		try {
+				Speech.synthesizeText("I'm sorry I could not understand that");
+			} catch (Exception e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
     		
     	}
 		
