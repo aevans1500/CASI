@@ -1,0 +1,25 @@
+
+
+#pane_background {
+    -fx-background-color: rgba(0, 0, 0, 0.0);
+}
+
+#background {
+    -fx-background-color: rgba(0, 100, 100, 0.0); 
+}
+
+#title_bar {
+    -fx-background-color: rgba(0, 100, 100, 0.8); 
+}
+
+#scroll_pane {
+    -fx-background-color: rgba(0, 100, 100, 0.6); 
+}
+
+#scroll_background {
+    -fx-background-color: rgba(0, 100, 100, 0.0); 
+}
+
+#button:hover {
+    -fx-cursor: hand;
+}

@@ -1,0 +1,4 @@
+first_start boolean false
+avg_temp double 74.20999987944464
+avg_light double 0.5899999963541824
+last_date long 1551620610
